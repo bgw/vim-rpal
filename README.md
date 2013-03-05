@@ -3,6 +3,11 @@ vim-rpal
 
 Syntax highlighting support in vim for RPAL.
 
+Screenshot
+----------
+
+![](http://i.imgur.com/Y1QdBsD.png)
+
 What is RPAL?
 -------------
 
