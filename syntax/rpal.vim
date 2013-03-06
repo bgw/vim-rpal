@@ -35,6 +35,9 @@ hi def link rpalInteger Number
 syn match rpalString /'\(\\.\|[^']\)*'/ display
 hi def link rpalString String
 
+syn match rpalComment /\/\/.*/ display contains=@Spell
+hi def link rpalComment Comment
+
 " Some of these aren't part of spec, but Bermudez's example c compiler accepts
 " them, so we will too.
 syn keyword rpalBuiltin Print print Istuple Isfunction Isdummy Isstring
