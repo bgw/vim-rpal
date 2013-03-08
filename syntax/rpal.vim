@@ -45,7 +45,7 @@ syn keyword rpalBuiltin Isinteger Istruthvalue Conc conc ItoS Order Stern Stem
 syn keyword rpalBuiltin Null
 hi def link rpalBuiltin Function
 
-syn keyword rpalConstant nil
+syn keyword rpalConstant nil true false dummy
 hi def link rpalConstant Constant
 
 if !exists("b:current_syntax")
