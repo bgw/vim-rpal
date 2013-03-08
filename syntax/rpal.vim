@@ -13,7 +13,7 @@ hi def link rpalDefine Define
 syn match rpalFunction /\(fn\)\@<=\(\s\+\a\w*\)\+./ display
 hi def link rpalFunction Function
 
-syn match rpalBinding /\(let\s\+\)\@<=\a\w*/ display
+syn match rpalBinding /\(let\(\srec\)\?\s\+\)\@<=\a\w*/ display
 hi def link rpalBinding Function
 
 " Handle + - * / **, with some special casing as not to interfere with ->
