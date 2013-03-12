@@ -6,7 +6,7 @@ Syntax highlighting support in vim for RPAL.
 Screenshot
 ----------
 
-![](http://i.imgur.com/Y1QdBsD.png)
+![](http://i.imgur.com/0FKzbHf.png)
 
 What is RPAL?
 -------------

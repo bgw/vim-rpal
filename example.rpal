@@ -1,0 +1,11 @@
+let rec Factorial k =
+    n le 1 -> 1 | n * Factorial (n - 1)
+    where n = k // A stupid example of where syntax
+in
+let Line a b =
+    a @Conc '\n' @Conc b
+in
+Print (
+    'The result is: ' @Conc ItoS (Factorial 7) @Line // gives 5040
+    'Another line of text.'
+)
